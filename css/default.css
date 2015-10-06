@@ -1,0 +1,16 @@
+.nav>li>button{
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+input[type="checkbox"] {
+	float: right;
+}
+#tittle {
+	font-family: Impact, "Charcoal", sans-serif;
+	font-size: 6em;
+	padding: 1em;
+}
+.subtittle {
+	font-weight: bolder;
+}
