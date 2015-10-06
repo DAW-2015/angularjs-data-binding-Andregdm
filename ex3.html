@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/default.css" media="screen" title="no title" charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+        <meta charset="utf-8">
+        <title>Angular</title>
+    </head>
+    <body>
+        <div class="col-xs-5 col-md-5">
+            <h1>Avaliação</h1>
+            <p>
+                Avalie o produto (0 a 5 estrelas): <input type="range" ng-model="stars" min="0" max="5"> {{stars}}
+            </p>
+            <p>
+            </p>
+                Comente sobre o produto:
+                <p>
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control" ng-model="comment"></textarea>
+                        </div>
+                    </form>
+                </p>
+            </p>
+            <h1>
+                Preview do comentário:
+            </h1>
+            <h3>Avaliação: {{stars}}</h3>
+            <h3>
+                Comentário do comprador:
+            </h3>
+            <h4>{{comment}}</h4>
+        </div>
+    </body>
+</html>
