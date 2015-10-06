@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+        <meta charset="utf-8">
+        <title>Angular</title>
+    </head>
+    <body>
+        <p>
+            Insira a temperatura em graus Celsius: <input type="text" ng-model="temp" placeholder=0>
+        </p>
+        <p>
+            <li ng-init="toKelvin = 273.15">A temperatura equivalente em Kelvin: {{ temp -- toKelvin }}</li>
+            <li>A temperatura equivalente em Fahrenheit: {{ temp * 1.8 -- 32 }}</li>
+        </p>
+    </body>
+</html>
